@@ -1,6 +1,7 @@
 
 .vegetables-container{
     align-items: center;
+    
 }
 .vegetables-title-box{
     display: flex;
@@ -60,9 +61,6 @@
 
 
 @media screen and (min-width: 768px) {
-    .vegetables-section {
-            padding: 100px 0;
-        }
     .vegetables-title-box {
             max-width: 626px;
             gap: 24px;
@@ -100,22 +98,19 @@
     }
 }
 @media screen and (min-width: 1280px) {
+    .vegetables-container{
+        max-width: 1280px;
+    }
     .vegetables-title-box{
         gap: 24px;
         margin-bottom: 52px;
 
     }
-    .vegetables-menu{
-        max-width: 1080px;
-    }
     .vegetables-list{
         width: calc((100% - 48px) / 3);
     }
     }
-   .vegetables-box{
-    max-width: 344px;
-   }
-    
+   
     
 
 
