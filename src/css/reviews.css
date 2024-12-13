@@ -120,10 +120,6 @@
 }
 
 @media screen and (min-width: 1280px) {
-    .review-container {
-        padding: 100px;
-        margin: 0;
-    }
 
     .review-title {
         font-size: 64px;
@@ -142,10 +138,9 @@
         flex-basis: calc(100% - 48px / 3);
     }
 
-    .review-list {
-        gap: 38px;
+    .review-list { 
+        gap: 24px;
         overflow-x: hidden;
-        min-width: 1110px;
     }
 
     .review-comment {
