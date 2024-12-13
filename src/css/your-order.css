@@ -2,6 +2,12 @@
     background-color: #576F35;
     color: #FBFBFB;
 }
+
+@media only screen and (min-width: 1280px) {
+    .order-top-container {
+        max-width: 1280px;
+    }
+}
 .order-container {
     margin-bottom: 40px;
 }
@@ -10,6 +16,11 @@
     .order-container {
     margin-bottom: 52px;
     padding-right: 64px;
+    }
+}
+@media only screen and (min-width: 1280px) {
+    .order-container {
+    padding-right: 333px;
     }
 }
 
@@ -57,7 +68,6 @@
     }
 }
 
-
 .order-list {
     display: flex;
     gap: 20px;
@@ -74,9 +84,9 @@
     .order-list {
         display: flex;
         flex-direction: row;
+        padding: 0;
         }
 }
-
 
 .order-items {
     background-color: #FBFBFB;
@@ -93,6 +103,7 @@
 @media only screen and (min-width: 1280px) {
     .order-items {
         width: calc((100% - 32px) / 2);
+        padding: 52px 48px;
     }
 }
 
@@ -112,7 +123,7 @@
     .order-desc {
     font-size: 32px;
     line-height: 1;
-    margin-bottom: 52;
+    margin-bottom: 52px;
     }
 }
 
@@ -228,7 +239,7 @@
     color:  #FBFBFB;
     display: block;
     min-width: 100%;
-    padding: 16px 129px 16px 129px;
+    padding: 16px 0;
     margin: 0 auto;
     cursor: pointer;
     border: none;
@@ -259,6 +270,11 @@
     padding: 52px;
     }
 }
+@media only screen and (min-width: 768px) {
+    .order-roster {
+        padding: 52px 48px;
+    }
+}
 
 .order-img {
     border-radius: 15px;
@@ -273,6 +289,12 @@
     margin-bottom: 52px;
     }
 }
+@media only screen and (min-width: 1280px) {
+    .order-img {
+    margin-bottom: 80px;
+    }
+}
+
 
 .order-social-text {
     font-size: 14px;
