@@ -107,7 +107,11 @@ a {
     font-style: normal;
     margin: 0;
 }
-
+.logo-and-text{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
 .a-privacy {
     font-weight: 500;
     font-size: 14px;
@@ -132,6 +136,7 @@ a {
 
     .logo-and-text {
         width: 265px;
+        gap: 24px;
     }
 
     .foot {
@@ -182,7 +187,9 @@ a {
         max-width: 1280px;
         padding: 0 20px;
     }
-
+    .logo-and-text{
+        gap: 24px;
+    }
     .foot {
         width: 1280px;
         padding: 52px 100px;
