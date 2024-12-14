@@ -1,8 +1,3 @@
-
-.vegetables-container{
-    align-items: center;
-    
-}
 .vegetables-title-box{
     display: flex;
     flex-direction: column;
@@ -11,6 +6,7 @@
 
 }
 .vegetables-title{
+        font-weight: 600;
         font-size: 48px;
         line-height: 1.08;
         letter-spacing: -0.01em;
@@ -23,6 +19,7 @@
 }
 
 .vegetables-text{
+        font-weight: 500;
         font-size: 14px;
         line-height: 1.4;
         color: #fbfbfb;
@@ -35,14 +32,14 @@
 
 }
 
-.vegetables-box{
-
+.vegetables-list{
     border-radius: 40px;
     padding: 32px 24px;
     background: #fbfbfb;
 
 }
 .vegetables-subtitle {
+    font-weight: 600;
     font-size: 28px;
     line-height: 1;
     letter-spacing: -0.01em;
@@ -53,6 +50,7 @@
 }
 
 .vegetables-price{
+    font-weight: 500;
     font-size: 14px;
     line-height: 1.4;
     color: #141414;
