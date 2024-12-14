@@ -3,11 +3,6 @@
     color: #FBFBFB;
 }
 
-@media only screen and (min-width: 1280px) {
-    .order-top-container {
-        max-width: 1280px;
-    }
-}
 .order-container {
     margin-bottom: 40px;
 }
@@ -158,6 +153,7 @@
 @media only screen and (min-width: 768px) {
     .order-input {
     font-size: 16px;
+    line-height: 1.25;
     }
 }
 
@@ -180,6 +176,7 @@
     .order-textarea {
         font-size: 16px;
         margin-bottom: 24px;
+        line-height: 1.25;
     }
 }
 
@@ -270,7 +267,7 @@
     padding: 52px;
     }
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1280px) {
     .order-roster {
         padding: 52px 48px;
     }
@@ -321,7 +318,7 @@
 
 @media only screen and (min-width: 768px) {
     .order-nav-social {
-
+        gap: 12px;
     }
 }
 
