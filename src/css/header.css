@@ -1,0 +1,144 @@
+.header {
+  padding-top: 20px;
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-logo {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  fill: #fbfbfb;
+}
+
+.header-logo-icon {
+  display: block;
+  fill: #fbfbfb;
+}
+
+.header-logo-text {
+  display: block;
+}
+
+.nav-wrapper {
+  display: none;
+}
+
+.header-menu-btn {
+  display: block;
+  background-color: transparent;
+  border: none;
+  padding: 0px;
+  margin-left: auto;
+}
+
+.header-menu-icon {
+  display: block;
+  fill: #fbfbfb;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  .header-menu-icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .header-logo-icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .header-logo-text {
+    width: 187px;
+    height: 17px;
+  }
+
+  .header-logo {
+    gap: 9px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .container.head {
+    max-width: 1120px;
+  }
+
+  .header-menu-btn {
+    display: none;
+  }
+
+  .header-nav {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .nav-list {
+    display: flex;
+    gap: 8px;
+  }
+
+  .header-order-link {
+    display: block;
+    margin-left: 20px;
+  }
+
+  .nav-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
+    text-align: center;
+    letter-spacing: -0.02em;
+    background-color: transparent;
+
+    border: 1px solid #fbfbfb;
+    border-radius: 12px;
+    padding: 12px;
+    width: 118px;
+    height: 44px;
+  }
+
+  .nav-link:hover,
+  .nav-link:focus,
+  .header-order-link:hover,
+  .header-order-link:focus {
+    color: #7a3145;
+    background-color: #d4bfc4;
+  }
+
+  .nav-link:active,
+  .header-order-link:active {
+    background: #fbfbfb;
+  }
+
+  .nav-wrapper {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+  }
+
+  .header-order-link {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.11;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+
+    border-radius: 30px;
+    padding: 16px 32px;
+    width: 157px;
+    height: 52px;
+    background: #7a3145;
+
+    text-align: center;
+  }
+}
