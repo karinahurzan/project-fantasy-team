@@ -22,7 +22,6 @@
 }
 .work-it-img {
   border-radius:30px;
-  max-width: 100%; 
   min-width: 335px; 
   
  
@@ -179,9 +178,6 @@
   }
   .work-it-img {
     width: 440px;
-    height: auto;
-   
-    margin: 0 auto;
   }
   .workit-img-cont {
     min-width: 640px;
@@ -195,14 +191,14 @@
   }
   .how-it-steps-bg::after {
     content: "";
-    background-color: #576f35; /* Зелений фон */
+    background-color: #576f35;
     position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
-    left: 100%; /* Фон починається від правого краю зеленого блоку */
-    width: 100vw; /* Займає всю доступну ширину справа */
-    z-index: -1; /* Фон під блоком */
+    left: 100%;
+    width: 100vw; 
+    z-index: -1; 
   }
  
   .how-it-list-cont:first-child {
