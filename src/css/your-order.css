@@ -351,4 +351,8 @@
     content: "/";
     margin-left: 5px;
     color: #FBFBFB;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.11;
+    letter-spacing: -0.015em;
 }
