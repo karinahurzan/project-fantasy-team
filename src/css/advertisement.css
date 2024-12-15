@@ -1,87 +1,47 @@
-.advertisement-section {
-    padding: 80px 20px;
-    background-color: #fbfbfb;
-}
 
-@media only screen and (min-width: 768px) {
-    .advertisement-section {
-        padding: 100px 32px;
-    }
-}
-
-@media only screen and (min-width: 1280px) {
-    .advertisement-section {
-        padding: 100px;
-    }
-}
-
-.container-advertisement {
-    position: relative;
-    max-width: 335px;
-}
-
-@media only screen and (min-width: 768px) {
-    .container-advertisement {
-        max-width: 704px;
-    }
-}
-
-@media only screen and (min-width: 1280px) {
-    .container-advertisement {
-        max-width: 1080px;
-    }
-}
-
-.advertisement-title {
-    width: 0px;
-    height: 0px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-}
 
 .advertisement-content {
-    font-weight: 600;
-    font-size: 48px;
-    line-height: 1.08;
-    letter-spacing: -0.01em;
-    text-transform: uppercase;
-    color: #141414;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1.08;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #141414;
 }
 
 @media only screen and (min-width: 768px) {
-    .advertisement-content {
-        font-size: 64px;
-        line-height: 1;
-    }
+  .advertisement-content {
+    font-size: 64px;
+    line-height: 1;
+  }
 }
 
 @media only screen and (min-width: 1280px) {
-    .advertisement-content {
-        font-size: 76px;
-    }
+  .advertisement-content {
+    font-size: 76px;
+  }
 }
 
 .advertisement-content-span {
-    display: inline-block;
-    background-color: #576f35;
-    color: #fbfbfb;
-    border-radius: 12px;
+  display: inline-block;
+  background-color: #576f35;
+  color: #fbfbfb;
+  border-radius: 12px;
 }
 
 @media only screen and (min-width: 768px) {
-    .advertisement-content-span {
-        padding-top: 20px;
-        padding-right: 8px;
-        height: 86px;
-    }
+  .advertisement-content-span {
+    padding-top: 20px;
+    padding-right: 8px;
+    height: 86px;
+  }
 }
 
-@media only screen and (min-width: 768px) {
-    .advertisement-content-span {
-        padding-top: 4px;
-        padding-right: 8px;
-        padding-left: 16px;
-        height: 84px;
-    }
+@media only screen and (min-width: 1280px) {
+  .advertisement-content-span {
+    padding-top: 4px;
+    padding-right: 8px;
+    padding-left: 16px;
+    height: 84px;
+  }
 }
