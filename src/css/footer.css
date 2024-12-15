@@ -1,33 +1,16 @@
-.container {
-    max-width: 375px;
-    padding: 0 20px;
-    margin: 0 auto;
-}
-
-ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-a {
-    text-decoration: none;
-    color: #fbfbfb;
-}
 .logo-index{
     display: flex;
     gap: 4px;
 }
 .foot {
     background-color: #7A3145;
-    padding: 36px 0 36px 0;
-    width: 375px;
+    padding: 30px 0 30px 0;
 }
 
 .list-navigation {
     display: flex;
     flex-direction: column;
-    gap: 24px;
+    gap: 16px;
 }
 
 .menu-and-contacts {
@@ -40,6 +23,7 @@ a {
     display: flex;
     flex-direction: column;
     gap: 40px;
+    justify-content: flex-start;
 }
 
 .ul-address {
@@ -56,13 +40,6 @@ a {
 }
 
 .icon-name {
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 1;
-    color: currentColor;
-    font-family: "Inter Tight", sans-sefir;
-    text-transform: uppercase;
-    letter-spacing: -.01em;
     margin: 0;
     padding: 0;
 }
@@ -73,7 +50,7 @@ a {
     font-size: 14px;
     line-height: 1.42857;
     color: #fbfbfb;
-    font-family: "Inter Tight", sans-serif;
+
 }
 
 .li-navigation {
@@ -83,7 +60,7 @@ a {
     letter-spacing: -0.01em;
     text-transform: uppercase;
     color: #fbfbfb;
-    font-family: "Inter Tight", sans-serif;
+
 }
 
 .number {
@@ -92,7 +69,7 @@ a {
     line-height: 1.42857;
     color: #fbfbfb;
     font-style: normal;
-    font-family: "Inter Tight", sans-serif;
+
 }
 
 .address {
@@ -100,44 +77,31 @@ a {
     font-size: 14px;
     line-height: 1.42857;
     color: #fbfbfb;
-    font-family: "Inter Tight", sans-serif;
-    font-style: normal;
-    margin: 0;
 }
 .logo-and-text{
     display: flex;
     flex-wrap: wrap;
-    gap: 16px;
+    gap: 14px;
 }
-.a-privacy {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.42857;
-    color: #d4bfc4;
-    font-family: "Inter Tight", sans-serif;
-}
+
 
 .li-privacy {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.42857;
     color: #d4bfc4;
-    font-family: "Inter Tight", sans-serif;
 }
 
 @media screen and (min-width: 768px) {
-    .container {
-        max-width: 768px;
-        padding: 0 32px;
+    .logo-index{
+        gap: 9px;
     }
-
     .logo-and-text {
-        width: 265px;
+        max-width: 265px;
         gap: 24px;
     }
 
     .foot {
-        width: 768px;
         padding: 32px 0 32px 0;
     }
 
@@ -154,6 +118,7 @@ a {
 
     .address,
     .number {
+        max-width: 215px;
         font-weight: 700;
         font-size: 16px;
         line-height: 1.25;
@@ -168,33 +133,37 @@ a {
     .policy {
         display: flex;
         justify-content: space-between;
+        margin-top: 100px;
     }
 
     .paragraph-logo-foot {
         font-weight: 500;
-        margin: 24px 0 0 0;
         font-size: 16px;
         line-height: 1.25;
+    }
+    .list-navigation{
+        gap: 24px;
     }
 }
 
 
 @media screen and (min-width: 1280px) {
+
+    .logo-index{
+        gap: 9px;
+  }
     .container {
         max-width: 1120px;
         padding: 0 20px;
+
     }
     .logo-and-text{
         gap: 24px;
     }
     .foot {
-        width: 1280px;
         padding: 52px 100px;
     }
 
-    .menu-and-contacts {
-        gap: 250px;
-    }
 
     .policy {
         margin-top: 124px;
@@ -204,4 +173,11 @@ a {
         gap: 122px;
         flex-direction: row;
     }
+
+    .list-navigation{
+        gap: 24px;
+    }
 }
+=======
+}
+
