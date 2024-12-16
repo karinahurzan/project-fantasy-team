@@ -11,8 +11,8 @@
       </p>
     </div>
 
-    <ul class="order-list">
-      <li class="order-items">
+    <div class="order-inner">
+      <div class="order-cards">
         <p class="order-desc">
           Ordering <span class="from-us-span"> from us </span> is quick and
           easy! Fill out <span class="the-form-span"> the form </span> below and
@@ -27,6 +27,7 @@
               type="text"
               placeholder="Full Name"
               required
+              aria-label="Full name"
             />
           </div>
 
@@ -39,6 +40,7 @@
               placeholder="Email"
               pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
               required
+              aria-label="Email"
             />
             <p class="text-valid">Success!</p>
             <p class="text-invalid">Invalid email, try again</p>
@@ -50,12 +52,13 @@
             id="user-comment"
             rows="5"
             placeholder="Comment"
+            aria-label="Comment"
           ></textarea>
 
           <button class="order-send-button" type="submit">Send</button>
         </form>
-      </li>
-      <li class="order-items order-roster">
+      </div>
+      <div class="order-cards order-wrap">
         <picture>
           <!-- Desktop -->
           <source
@@ -118,7 +121,7 @@
             </li>
           </ul>
         </div>
-      </li>
-    </ul>
+      </div>
+    </div>
   </div>
 </section>
