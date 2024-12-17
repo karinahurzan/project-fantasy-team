@@ -37,6 +37,12 @@
 
 }
 
+@media only screen and (min-width: 320px) {
+    .order-title {
+        font-size: 36px;
+    }
+}
+
 @media only screen and (min-width: 768px) {
     .order-title {
         font-size: 64px;
@@ -170,6 +176,7 @@
     font-weight: 500;
     line-height: 1.43;
     text-align: left;
+    outline: transparent;
 
 }
 @media only screen and (min-width: 768px) {
