@@ -2,6 +2,14 @@
   display: flex;
   gap: 4px;
   align-items: center;
+
+}
+.harvest-policy{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 80px;
+
 }
 .foot {
   background-color: #7a3145;
@@ -32,8 +40,8 @@
 .policy {
   display: flex;
   flex-wrap: wrap;
-  gap: 16px;
-  margin-top: 80px;
+  gap: 8px;
+
 }
 .icon-name {
   margin: 0;
@@ -125,11 +133,19 @@
     width: 215px;
     gap: 24px;
   }
+
+  .harvest-policy{
+    margin-top: 100px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+
   .policy {
     display: flex;
     justify-content: space-between;
-    margin-top: 100px;
   }
+
   .paragraph-logo-foot {
     font-weight: 500;
     font-size: 16px;
@@ -143,6 +159,11 @@
   .logo-index {
     gap: 9px;
   }
+
+  .harvest-policy{
+    margin-top: 124px;
+  }
+
   .container {
     max-width: 1120px;
     padding: 0 20px;
@@ -153,9 +174,7 @@
   .foot {
     padding: 52px 100px;
   }
-  .policy {
-    margin-top: 124px;
-  }
+ 
   .menu-navigation {
     gap: 122px;
     flex-direction: row;
