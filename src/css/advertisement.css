@@ -11,6 +11,12 @@
   color: #141414;
 }
 
+@media screen and (max-width: 374px) {
+  .advertisement-content {
+    font-size: 36px;
+  }
+}
+
 @media only screen and (min-width: 768px) {
   .advertisement-content {
     font-size: 64px;

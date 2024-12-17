@@ -32,3 +32,9 @@ body {
     padding: 100px 0;
   }
 }
+
+@media screen and (max-width: 374px) {
+  h2 {
+    font-size: 36px;
+  }
+}
