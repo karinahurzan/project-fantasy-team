@@ -3,6 +3,7 @@
   flex-direction: column;
   gap: 20px;
   align-items: center;
+  margin-bottom: 40px;
 }
 
 
@@ -133,9 +134,7 @@ min-width: 320px;
 }
 
 
- .how-it-list-cont:first-child{
-  margin-top: 40px;
-}
+
 .how-it-list-cont:last-child{
   margin-bottom: 0;
 }
@@ -179,14 +178,13 @@ min-width: 320px;
   }
   .how-it-work-steps-box {
     gap: 0;
+    margin-bottom: 52px;
   }
   .how-it-list-paragraph {
     font-size: 16px;
     line-height: 1.25;
   }
-  .how-it-list-cont:first-child {
-    margin-top: 54px;
-  }
+
   .work-it-img{
     margin: 0 auto; 
     width: 100%;
