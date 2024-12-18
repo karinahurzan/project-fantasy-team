@@ -272,6 +272,7 @@
 .order-send-button:active {
     background-color: #FBFBFB;
     color: #7A3145;
+    border: 1px solid #7A3145;
     transform: scale(0.95);
 
 }
